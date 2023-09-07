@@ -109,7 +109,7 @@ $utilities: map-merge(
     ),
     "border-end": (
       property: border-right,
-      rresponsive: true,
+      responsive: true,
       class: border-end,
       values: (
         null: $border-width solid $border-color,

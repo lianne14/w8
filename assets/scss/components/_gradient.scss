@@ -6,5 +6,9 @@
 }
 
 .radialGradient {
-    @include radial-gradient(#28085c, #000000);
+  @include radial-gradient(#28085c, #000000);
+}
+
+.radialGradient-000 {
+  @include radial-gradient(#000000, #28085c);
 }
