@@ -37,12 +37,12 @@ vite 專案執行開發模式 `npm run dev` 後即會自動監聽，不需要使
 
 2. 部署前請務必先將原始碼上傳到 GitHub Repository 也就是初始化 GitHub，因此通常第一步驟會在專案終端機輸入以下指令
 ```cmd
-git init
-git add README.md
-git commit -m "first commit"
+git init # 若已經初始化過就可以不用輸入
+git add .
+git commit -m 'first commit'
 git branch -M main
 git remote add origin https://github.com/lianne14/w8.git
-git push -u origin main
+git push -u origin main // 僅限第一次輸入，往後只需要輸入 git push
 ```
 
 3. 初始化完畢後，執行 `npm run deploy` 指令進行自動化部署
