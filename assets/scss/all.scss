@@ -1,0 +1,18 @@
+@import "../../node_modules/bootstrap/scss/functions";
+@import './helpers/variables';
+@import './components/custom-color.scss';
+@import './components/utilities.scss';
+@import './mixins/bg-gradient.scss';
+@import './components/gradient.scss';
+@import './components/letter-spacing.scss';
+@import './components/button.scss';
+@import './components/swiper.scss';
+
+@import './base/base.scss';
+@import './components/font.scss';
+@import './components/header.scss';
+@import './components/footer.scss';
+
+@import './pages/index.scss';
+
+@import "../../node_modules/bootstrap";
