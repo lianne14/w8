@@ -36,7 +36,7 @@
             </div>
           </div>
 
-          <div class="col-12 col-lg-6 border-end-0 border-mb-end border-bottom border-bottom-lg-0 "> 
+          <div class="col-12 col-lg-6 border-bottom border-bottom-lg-0"> 
             <div class="row py-24 py-lg-40">
               <div class="col-12 font-noto-sans">
                 <div class="letter-spacing-1 fs-20">
@@ -54,7 +54,8 @@
             </div>
           </div>
 
-          <div class="col-12 col-lg-6">
+          <!-- 這邊的 border-start 沒有效果 -->
+          <div class="col-12 col-lg-6 border-start-0 border-lg-start">
             <div class="row py-24 py-lg-40">
               <div class="col-12 font-noto-sans">
                 <div class="letter-spacing-1 fs-20">
@@ -75,7 +76,7 @@
       </div>
 
       <div class="container text-center my-60">
-      <a href="#" class="">
+      <a href="#">
         <img src="../assets/images/more.png" alt="more">
       </a>
       </div>
@@ -90,26 +91,26 @@
     <section class="text-white radialGradient-000 pt-128 pb-60">
       <div class="container">
         <div class="row align-items-baseline">
-          <h2 class="col-12 col-lg-4 text-lg-start text-center mb-16 fs-40 fs-mb-48 letter-spacing-1">使用分享</h2>
+          <h2 class="col-12 col-lg-4 text-start mb-16 fs-40 fs-mb-48 letter-spacing-1">使用分享</h2>
           <p class="col-12 col-lg-8">展示其他使用者對於產品的真實體驗與評價，讓您更加放心選擇。</p>
         </div>
         <p class="font-noto-sans">01-04</p>
         <div class="">
-        <img src="../assets/images/news/emergency.png" class="img-fluid" alt="">
+        <img src="../assets/images/emergency-lg.png" class="img-fluid mt-40 mb-24" alt="emergency">
         </div>
       </div> 
       <div class="overflow-hidden">
           <div class="font-noto-sans ms-lg-80">
-            <!-- Slider main container -->
-            <div class="swiper">
-              <!-- Additional required wrapper -->
-              <ul class="swiper-wrapper list-unstyled">
+            <!-- mo 移除 swiper 正常使用格線系統排列就可以-->
+            <div class="container p-24">
+              <ul class="row gy-24 list-unstyled d-lg-none">
                 <!-- Slides -->
                 <!-- slides 1 -->
-                <li class="swiper-slide bg-primary-400 text-white">
+                <!-- 沒有辦法等高排排站的時候可以試試 height: auto（h-100）-->
+                <li class="swiper-slide col-12 col-sm-6 bg-primary-400 text-white h-auto">
                   <div class="card">
                     <div class="card-body d-flex flex-column">
-                      <div class="">
+                      <div class="p-16">
                         <h5 class="card-title align-self-start">Zona <span class="fs-72">.</span> Taipei</h5>
                         <p class="card-text">ALPHABOX+ 真的很夯！每次把它打開，感覺就像是身臨其境一樣。它陪我度過了很多寂寞的時光，讓我在家裡也能享受到優質的休閒時光。</p>
                       </div>
@@ -121,10 +122,10 @@
                 </li>
 
                 <!-- slides 2 -->
-                <li class="swiper-slide bg-white text-black">
+                <li class="swiper-slide col-12 col-sm-6 bg-white text-black h-auto">
                   <div class="card">
                     <div class="card-body d-flex flex-column">
-                      <div class="">
+                      <div class="p-16">
                         <h5 class="card-title align-self-start">Lin  <span class="fs-72">.</span> Chiayi</h5>
                         <p class="card-text">非常推薦！它的畫面清晰度超高，真的讓我驚艷不已。而且它還可以和我互動，感覺就像是有個真實的朋友在身邊。</p>
                       </div>
@@ -136,10 +137,10 @@
                 </li>
 
                 <!-- slides 3 -->
-                <li class="swiper-slide bg-primary-400 text-white">
+                <li class="swiper-slide col-12 col-sm-6 bg-primary-400 text-white h-auto">
                   <div class="card">
                     <div class="card-body d-flex flex-column">
-                      <div class="">
+                      <div class="p-16">
                         <h5 class="card-title align-self-start">Zona <span class="fs-72">.</span> Taipei</h5>
                         <p class="card-text">ALPHABOX+ 真的很夯！每次把它打開，感覺就像是身臨其境一樣。它陪我度過了很多寂寞的時光，讓我在家裡也能享受到優質的休閒時光。</p>
                       </div>
@@ -151,10 +152,79 @@
                 </li>
 
                 <!-- slides 4 -->
-                <li class="swiper-slide bg-white text-black">
+                <li class="swiper-slide col-12 col-sm-6 bg-white text-black h-auto">
                   <div class="card">
                     <div class="card-body d-flex flex-column">
-                      <div class="">
+                      <div class="p-16">
+                        <h5 class="card-title align-self-start">Lin  <span class="fs-72">.</span> Chiayi</h5>
+                        <p class="card-text">非常推薦！它的畫面清晰度超高，真的讓我驚艷不已。而且它還可以和我互動，感覺就像是有個真實的朋友在身邊。</p>
+                      </div>
+                      <div class="card-footer">
+                        <a href="#" class="text-black"><span class="fs-96">..</span> ALPHABOX+ Dianne</a>
+                      </div>
+                    </div>
+                  </div>
+                </li>
+              </ul>
+            </div>  
+            <!-- mo end -->
+
+            <!-- pc swiper -->
+            <div class="swiper d-none d-lg-block">
+              <!-- Additional required wrapper -->
+              <ul class="swiper-wrapper list-unstyled">
+                <!-- Slides -->
+                <!-- slides 1 -->
+                <!-- 沒有辦法等高排排站的時候可以試試 height: auto（h-100）-->
+                <li class="swiper-slide bg-primary-400 text-white h-auto">
+                  <div class="card">
+                    <div class="card-body d-flex flex-column">
+                      <div class="p-16">
+                        <h5 class="card-title align-self-start">Zona <span class="fs-72">.</span> Taipei</h5>
+                        <p class="card-text">ALPHABOX+ 真的很夯！每次把它打開，感覺就像是身臨其境一樣。它陪我度過了很多寂寞的時光，讓我在家裡也能享受到優質的休閒時光。</p>
+                      </div>
+                      <div class="card-footer">
+                        <a href="#"><span class="fs-96">..</span> ALPHABOX+ Dianne</a>
+                      </div>
+                    </div>
+                  </div>
+                </li>
+
+                <!-- slides 2 -->
+                <li class="swiper-slide bg-white text-black h-auto">
+                  <div class="card">
+                    <div class="card-body d-flex flex-column">
+                      <div class="p-16">
+                        <h5 class="card-title align-self-start">Lin  <span class="fs-72">.</span> Chiayi</h5>
+                        <p class="card-text">非常推薦！它的畫面清晰度超高，真的讓我驚艷不已。而且它還可以和我互動，感覺就像是有個真實的朋友在身邊。</p>
+                      </div>
+                      <div class="card-footer">
+                        <a href="#" class="text-black"><span class="fs-96 ">..</span> ALPHABOX+ Dianne</a>
+                      </div>
+                    </div>
+                  </div>
+                </li>
+
+                <!-- slides 3 -->
+                <li class="swiper-slide bg-primary-400 text-white h-auto">
+                  <div class="card">
+                    <div class="card-body d-flex flex-column">
+                      <div class="p-16">
+                        <h5 class="card-title align-self-start">Zona <span class="fs-72">.</span> Taipei</h5>
+                        <p class="card-text">ALPHABOX+ 真的很夯！每次把它打開，感覺就像是身臨其境一樣。它陪我度過了很多寂寞的時光，讓我在家裡也能享受到優質的休閒時光。</p>
+                      </div>
+                      <div class="card-footer">
+                        <a href="#"><span class="fs-96">..</span> ALPHABOX+ Dianne</a>
+                      </div>
+                    </div>
+                  </div>
+                </li>
+
+                <!-- slides 4 -->
+                <li class="swiper-slide bg-white text-black h-auto">
+                  <div class="card">
+                    <div class="card-body d-flex flex-column">
+                      <div class="p-16">
                         <h5 class="card-title align-self-start">Lin  <span class="fs-72">.</span> Chiayi</h5>
                         <p class="card-text">非常推薦！它的畫面清晰度超高，真的讓我驚艷不已。而且它還可以和我互動，感覺就像是有個真實的朋友在身邊。</p>
                       </div>
@@ -175,42 +245,54 @@
                 </div>
               </div>
             </div>
+            <!-- pc swiper end -->
 
-            <p class="mt-128">若您有任何疑問或建議，歡迎隨時與我們聯絡，我們將竭誠為您解答。</p>
+            <p class="mt-128 d-none d-lg-block">若您有任何疑問或建議，歡迎隨時與我們聯絡，我們將竭誠為您解答。</p>
           </div>
       </div>
+
+
     </section>
 
     <!-- contact us -->
-    <section class="text-white bg-primary-500 pt-128 pb-60 font-noto-sans">
+    <section class="text-white bg-primary-500 py-128  font-noto-sans">
       <div class="container">
         <div class="row">
           <div class="col-12 col-lg-5">
-          <div class="align-items-baseline position-relative">
-            <h2 class="text-lg-start text-center mb-16 fs-40 fs-mb-48 letter-spacing-1 e">聯絡我們</h2>
-            <div class="d-flex align-items-center">
-              <div class="fs-96 d-inline position-absolute top-0 start-0">.</div>
-              <div class="h-25 d-inline rounded-pill position-absolute top-100 ms-48 mt-mb-24 mt-36" style="width: 180px; background-color: #fff;">-----------</div>
+          <div class="align-items-baseline">
+            <h2 class="text-start mb-16 fs-40 fs-mb-48 letter-spacing-1 e">聯絡我們</h2>
+            <div class="d-flex align-items-center mt-32">
+              <div class="d-inline bg-white rounded-circle" style="height: 12px; width: 12px;"></div>
+              <div class="d-inline bg-white d-inline rounded-pill ms-24" style="height: 12px; width: 180px;"></div>
             </div>
           </div>
-          <div class="mt-96">
+          <div class="mt-36 mt-lg-60">
             <p>讓科技成為您的最佳夥伴</p>
             <p>立即體驗神奇功能並享限時優惠！</p>
           </div>
         </div>
         <div class="col-12 col-lg-7 text-black">
-          <div class="fs-48">
-            <img src="../assets/images/news/emergency.png" class="img-fluid" alt="">
+          <div class="my-24">
+            <img src="../assets/images/emergency-lg.png" class="img-fluid" alt="emergency">
           </div>
-          <div class="form-floating mb-3">
-            <input type="email" class="form-control" id="floatingInput" placeholder="name@example.com">
-            <label for="floatingInput">Email address</label>
-          </div>
+          <div class="row">
+          <div class="col-12 mt-16">
           <div class="form-floating">
-            <input type="password" class="form-control" id="floatingPassword" placeholder="Password">
-            <label for="floatingPassword">COMMENTS</label>
+            <input type="email" class="form-control" id="floatingInput" placeholder="name@example.com">
+            <label for="floatingInput" class="fw-bold">Email</label>
           </div>
-          
+          </div>
+          <div class="col-12 mt-16">
+            <div class="form-floating">
+              <textarea class="form-control" placeholder="Leave a comment here" id="floatingTextarea2" style="height: 100px"></textarea>
+              <label for="floatingTextarea2" class="fw-bold">Comments</label>
+            </div>
+          </div>
+          </div>
+          <div class=" position-relative">
+          <button type="button" class="col-12 col-lg-6 btn btn-primary-300 my-16 rounded-1 position-absolute end-0">送出</button>
+          </div>
+          </div>
         </div>
       </div>
       </div>
