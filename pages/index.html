@@ -78,181 +78,158 @@
     </div>
 
     <!-- page-2 -->
-    <div class="container-fluid pt-40 position-relative pb-32">
-      <div class="page-2-bg position-absolute "></div>
+    <div class="container-fluid pt-40 position-relative pb-32 page-2-bg">
       <div class="position-relative">
         <div class="purple-bar mb-8"></div>
         <p class="text-white fs-24 fs-md-36 fs-lg-48 vw">什麼是</p>
-        <p class="text-dark fs-24 fs-md-36 fs-lg-48 border-bottom border-1 vw">ALPHABOX +</p>
-
-        <!-- swiper -->
-        <div class="container-fluid px-0">
-          <div class="swiper-box">
-            <div class="swiper mySwiper">
-              <div class="swiper-wrapper">
-                <div class="swiper-slide position-relative w-100 mx-auto ">
-                  <img class="d-none d-lg-block " src="../assets/images/carousel.png" alt="carousel">
-                  <img class="d-block d-lg-none img-fluid w-100" src="../assets/images/carousel_mobile.png" alt="">
-                  <div class="position-absolute start-50 top-50  text-lg-end text-white d-none d-lg-block">
-                    <span class="fs-128">01</span>
-                    <h3 class="fs-32 mb-16">立體投影技術</h3>
-                    <p>透過高科技立體投影技術，讓您感受真實的科技世界。</p>
-                  </div>
-                  <div>
-                    <div class="position-absolute top-50 text-lg-end text-white d-block d-lg-none">
-                      <span class="fs-64">01</span>
-                      <h3 class="fs-24 mb-8 mb-lg-16">立體投影技術</h3>
-                      <p>透過高科技立體投影技術，讓您感受真實的科技世界。</p>
-                    </div>
-                  </div>
-                </div>
-                <div class="swiper-slide position-relative">
-                  <img class="d-none d-lg-block" src="../assets/images/carousel.png" alt="carousel">
-                  <img class="d-block d-lg-none w-100" src="../assets/images/carousel_mobile.png" alt="">
-                  <div class="position-absolute start-50 top-50  text-lg-end text-white d-none d-lg-block">
-                    <span class="fs-128">02</span>
-                    <h3 class="fs-32 mb-16">立體投影技術</h3>
-                    <p>透過高科技立體投影技術，讓您感受真實的科技世界。</p>
-                  </div>
-                  <div>
-                    <div class="position-absolute top-50 text-lg-end text-white d-block d-lg-none">
-                      <span class="fs-64">02</span>
-                      <h3 class="fs-24 mb-8 mb-lg-16">立體投影技術</h3>
-                      <p>透過高科技立體投影技術，讓您感受真實的科技世界。</p>
-                    </div>
-                  </div>
-                </div>
-              </div>
-
-            </div>
-          </div>
-          <div class="swiper-button-next text-white d-none d-lg-block ">
-            <!-- <img src="../assets/images/line_end_arrow_notch.png" alt="arrow-right" class="image-fluid"> -->
-          </div>
-          <div class="swiper-button-prev text-white ">
-            <!-- <img src="../assets/images/line_end_arrow_reverse.png" alt="arrow-left"> -->
-          </div>
-        </div>
-
-
+        <p class="text-white fs-24 fs-md-36 fs-lg-48 border-bottom border-1 vw">ALPHABOX +</p>
+        <img style="width: 70%;" src="../assets/images/carousel.png" alt="carousel_screenshot.png">
       </div>
-      <!-- purple bar -->
-
     </div>
 
+
+    <div class="container-fluid">
+      <div class="swiper">
+        <!-- Additional required wrapper -->
+        <div class="swiper-wrapper">
+          <!-- Slides -->
+          <div class="swiper-slide">Slide 1</div>
+          <div class="swiper-slide">Slide 2</div>
+          <div class="swiper-slide">Slide 3</div>
+          ...
+        </div>
+        <!-- If we need pagination -->
+        <div class="swiper-pagination"></div>
+      
+        <!-- If we need navigation buttons -->
+        <div class="swiper-button-prev"></div>
+        <div class="swiper-button-next"></div>
+      
+        <!-- If we need scrollbar -->
+        <div class="swiper-scrollbar"></div>
+      </div>
     </div>
+
+    <div class="swiper-button-next text-white d-none d-lg-block ">
+      <!-- <img src="../assets/images/line_end_arrow_notch.png" alt="arrow-right" class="image-fluid"> -->
+    </div>
+    <div class="swiper-button-prev text-white ">
+      <!-- <img src="../assets/images/line_end_arrow_reverse.png" alt="arrow-left"> -->
+    </div>
+    
     <div class="purple-bar-2 ">
     </div>
     <%- include('./layout/news'); -%>
 
-      <%- include('./layout/user'); -%>
+    <%- include('./layout/user'); -%>
 
-        <%- include('./layout/contact'); -%>
+    <%- include('./layout/contact'); -%>
 
-          <!-- 1234 -->
-          <div class="container-fluid px-0">
-            <ol class="list-unstyled d-flex row gx-0">
-              <li class="col-6 col-lg-3">
-                <a href="#" class="card" style="background-image: url(../assets/images/diane_vertical.png);">
-                  <h4
-                    class="font-Shrikhand italic text-white d-flex flex-column align-items-center fs-24 fs-md-32 mb-18 mb-md-80">
-                    <p class="font-Saira fs-m fs-md-l fw-light mb-16 mb-md-20 font-saira">1</p>
-                    Diane
-                  </h4>
-                  <div class="d-flex flex-column flex-xl-row align-items-xl-end justify-content-between">
-                    <div class="text-white">
-                      <h5 class="h6 fw-bold mb-0">知識型</h5>
-                      <p class="mb-0">學術領導/知識分享/智能問答</p>
-                    </div>
-                    <img src="https://hackmd.io/_uploads/ByjLe2_3h.png" alt="arrow" class="img-fluid">
-                  </div>
-                </a>
-              </li>
-              <li class="col-6 col-lg-3">
-                <a href="#" class="card" style="background-image: url(../assets/images/felix_vertical.png);">
-                  <h4
-                    class="font-Shrikhand italic text-white d-flex flex-column align-items-center fs-24 fs-md-32 mb-18 mb-md-80">
-                    <span class="font-Saira fs-m fs-md-l fw-light mb-16 mb-md-20 font-saira">2</span>
-                    Felix
-                  </h4>
-                  <div class="d-flex flex-column flex-xl-row align-items-xl-end justify-content-between">
-                    <div class="text-white">
-                      <h5 class="h6 fw-bold mb-0">娛樂型</h5>
-                      <p class="mb-0">音樂播放/語音互動/遊戲陪伴</p>
-                    </div>
-                    <img src="https://hackmd.io/_uploads/ByjLe2_3h.png" alt="arrow" class="img-fluid">
-                  </div>
-                </a>
-              </li>
+    <!-- 1234 -->
+    <div class="container-fluid px-0">
+      <ol class="list-unstyled d-flex row gx-0">
+        <li class="col-6 col-lg-3">
+          <a href="#" class="card" style="background-image: url(../assets/images/diane_vertical.png);">
+            <h4
+              class="font-Shrikhand italic text-white d-flex flex-column align-items-center fs-24 fs-md-32 mb-18 mb-md-80">
+              <p class="font-Saira fs-m fs-md-l fw-light mb-16 mb-md-20 font-saira">1</p>
+              Diane
+            </h4>
+            <div class="d-flex flex-column flex-xl-row align-items-xl-end justify-content-between">
+              <div class="text-white">
+                <h5 class="h6 fw-bold mb-0">知識型</h5>
+                <p class="mb-0">學術領導/知識分享/智能問答</p>
+              </div>
+              <img src="https://hackmd.io/_uploads/ByjLe2_3h.png" alt="arrow" class="img-fluid">
+            </div>
+          </a>
+        </li>
+        <li class="col-6 col-lg-3">
+          <a href="#" class="card" style="background-image: url(../assets/images/felix_vertical.png);">
+            <h4
+              class="font-Shrikhand italic text-white d-flex flex-column align-items-center fs-24 fs-md-32 mb-18 mb-md-80">
+              <span class="font-Saira fs-m fs-md-l fw-light mb-16 mb-md-20 font-saira">2</span>
+              Felix
+            </h4>
+            <div class="d-flex flex-column flex-xl-row align-items-xl-end justify-content-between">
+              <div class="text-white">
+                <h5 class="h6 fw-bold mb-0">娛樂型</h5>
+                <p class="mb-0">音樂播放/語音互動/遊戲陪伴</p>
+              </div>
+              <img src="https://hackmd.io/_uploads/ByjLe2_3h.png" alt="arrow" class="img-fluid">
+            </div>
+          </a>
+        </li>
 
-              <li class="col-6 col-lg-3">
-                <a href="#" class="card" style="background-image: url(../assets/images/karina_verticalgle.png);">
-                  <h4
-                    class="font-Shrikhand italic text-white d-flex flex-column align-items-center fs-24 fs-md-32 mb-18 mb-md-80">
-                    <span class="font-Saira fs-m fs-md-l fw-light mb-16 mb-md-20 font-saira">3</span>
-                    Karina
-                  </h4>
-                  <div class="d-flex flex-column flex-xl-row align-items-xl-end justify-content-between">
-                    <div class="text-white">
-                      <h5 class="h6 fw-bold mb-0">生活型</h5>
-                      <p class="mb-0">健康提醒/日程安排/智能家居</p>
-                    </div>
-                    <img src="https://hackmd.io/_uploads/ByjLe2_3h.png" alt="arrow" class="img-fluid">
-                  </div>
-                </a>
-              </li>
+        <li class="col-6 col-lg-3">
+          <a href="#" class="card" style="background-image: url(../assets/images/karina_verticalgle.png);">
+            <h4
+              class="font-Shrikhand italic text-white d-flex flex-column align-items-center fs-24 fs-md-32 mb-18 mb-md-80">
+              <span class="font-Saira fs-m fs-md-l fw-light mb-16 mb-md-20 font-saira">3</span>
+              Karina
+            </h4>
+            <div class="d-flex flex-column flex-xl-row align-items-xl-end justify-content-between">
+              <div class="text-white">
+                <h5 class="h6 fw-bold mb-0">生活型</h5>
+                <p class="mb-0">健康提醒/日程安排/智能家居</p>
+              </div>
+              <img src="https://hackmd.io/_uploads/ByjLe2_3h.png" alt="arrow" class="img-fluid">
+            </div>
+          </a>
+        </li>
 
-              <li class="col-6 col-lg-3">
-                <a href="#" class="card">
-                  <h4
-                    class="font-Shrikhand italic text-white d-flex flex-column align-items-center fs-24 fs-md-32 mb-18 mb-md-80">
-                    <span class="font-Saira fs-m fs-md-l fw-light mb-16 mb-md-20 font-saira">4</span>
-                    Vito
-                  </h4>
-                  <div class="d-flex flex-column flex-xl-row align-items-xl-end justify-content-between">
-                    <div class="text-white">
-                      <h5 class="h6 fw-bold mb-0">情感型</h5>
-                      <p class="mb-0">情感識別/心情分析/心靈支持</p>
-                    </div>
-                    <img src="https://hackmd.io/_uploads/ByjLe2_3h.png" alt="arrow" class="img-fluid">
-                  </div>
-                </a>
-              </li>
+        <li class="col-6 col-lg-3">
+          <a href="#" class="card">
+            <h4
+              class="font-Shrikhand italic text-white d-flex flex-column align-items-center fs-24 fs-md-32 mb-18 mb-md-80">
+              <span class="font-Saira fs-m fs-md-l fw-light mb-16 mb-md-20 font-saira">4</span>
+              Vito
+            </h4>
+            <div class="d-flex flex-column flex-xl-row align-items-xl-end justify-content-between">
+              <div class="text-white">
+                <h5 class="h6 fw-bold mb-0">情感型</h5>
+                <p class="mb-0">情感識別/心情分析/心靈支持</p>
+              </div>
+              <img src="https://hackmd.io/_uploads/ByjLe2_3h.png" alt="arrow" class="img-fluid">
+            </div>
+          </a>
+        </li>
 
-            </ol>
-          </div>
+      </ol>
+    </div>
 
-          <%- include('./layout/footer'); -%>
 
-            <script type="module" src="../main.js"></script>
-            <script src="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.js"></script>
+    <%- include('./layout/footer'); -%>
 
-            <script>
-              const swiper = new Swiper('.swiper', {
-                // slide 間距
-                spaceBetween: 24,
-                slidesPerView: 3.5,
+                    <script type="module" src="../main.js"></script>
+                    <script src="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.js"></script>
 
-                // Scrollbar
-                mousewheel: true,
-                scrollbar: {
-                  el: ".swiper-scrollbar",
-                  draggable: true
-                },
+                    <script>
+                      const swiper = new Swiper('.swiper', {
+                        // slide 間距
+                        spaceBetween: 24,
+                        slidesPerView: 3.5,
 
-                // 使 swiper 可以使用滑鼠滾輪捲動
-                mousewheel: true,
-              });
-            </script>
+                        // Scrollbar
+                        mousewheel: true,
+                        scrollbar: {
+                          el: ".swiper-scrollbar",
+                          draggable: true
+                        },
 
-            <script>
-              var swiper = new Swiper(".mySwiper", {
-                navigation: {
-                  nextEl: ".swiper-button-next",
-                  prevEl: ".swiper-button-prev",
-                },
-              });
-            </script>
+                        // 使 swiper 可以使用滑鼠滾輪捲動
+                        mousewheel: true,
+                      });
+                    </script>
+
+                    <script>
+                      var swiper = new Swiper(".mySwiper", {
+                        navigation: {
+                          nextEl: ".swiper-button-next",
+                          prevEl: ".swiper-button-prev",
+                        },
+                      });
+                    </script>
 </body>
 
 </html>
