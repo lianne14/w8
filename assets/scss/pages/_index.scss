@@ -1,3 +1,190 @@
 .index-title {
   font-size: 100px;
 }
+
+.index-bg{
+  background-image: url(https://github.com/hexschool/2022-web-layout-training/blob/main/week8-ai/home_background.png?raw=true);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover; 
+  height: 880px; 
+  @include pc{
+    height: auto;
+  }
+}
+
+.circle_png{
+  width: 196px;
+  height: 196px;
+}
+
+.vw{
+  letter-spacing: 3.5vw;
+}
+
+.banner-side{
+  max-width: 100%;
+  object-fit: cover;
+
+}
+
+
+
+.banner-center{
+  max-width: 96%;
+  object-fit: cover;
+
+}
+
+.banner-name{
+  position: absolute;
+  top: 0;
+}
+
+.brand-name{
+  letter-spacing: 3.5vw;
+}
+
+
+// page-2
+.page-2-bg{
+  background-image:  url("../images/carousel_background.png");
+  height: auto;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  // filter: blur(5px);	
+	top: 0;	
+	bottom: 0;	
+	right: 0;	
+	left: 0;	
+
+}
+
+.page-2-center-img{
+  background-image:  url("../images/carousel_background.png");
+  height: 560px;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.purple-bar{
+  height: 40px;
+  @include gradient-x(rgba(112, 0, 255, 1), rgba(17, 0, 45, 1));
+
+}
+
+.purple-bar-2{
+  height: 40px;
+  @include gradient-x(rgba(112, 0, 255, 1), rgba(17, 0, 45, 1))
+}
+
+// 助教
+.fs-md-32 {
+  @media (min-width: 768px) {
+    font-size: 32px;
+  }
+}
+
+.fs-m {
+  font-size: 128px;
+}
+
+.fs-md-l {
+  @media (min-width: 996px) {
+    font-size: 256px;
+    
+  }
+
+  @media (min-width: 1200px) {
+    font-size: 360px;
+    
+  }
+
+  @media (min-width: 1400px) {
+    font-size: 400px;
+
+  }
+}
+
+
+.mb-md-20 {
+  @media (min-width: 768px) {
+    margin-bottom: 20px;
+  }
+}
+
+.mb-md-80 {
+  @media (min-width: 768px) {
+    margin-bottom: 80px;
+  }
+}
+
+// 助教
+.card {
+  background-color: #000 !important ;
+  background-blend-mode: darken;
+  background-image: url(https://github.com/hexschool/2022-web-layout-training/blob/main/week8-ai/vito.png?raw=true);
+  background-size: cover;
+  background-position: center;
+  transition: all 0.5s;
+  @media (min-width: 768px) {
+    padding: 24px 40px 56px;
+  }
+  &:hover {
+    background-color: rgb(255 122 127 / 0.2) !important;
+  }
+}
+
+.index-carousel-con{
+  background-image: url("../../images/c");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  max-width: 1296px;
+  height: auto;
+  object-fit: cover;
+
+}
+
+.swiper-button-prev {
+	img {	
+		max-width: 180px;		
+		height: 48px;	
+
+	}
+}
+
+.swiper-button-next {
+	img {	
+		width: 180px;		
+		height: 48px;	
+	}
+}
+
+.swiper-box {
+		max-width: 90%; //設置內容寬度	
+    @include pc{
+      max-width: 100%;
+    }	
+		margin: 0 auto;		
+		position: relative;		
+		& [class^="swiper-button-"]::after {		
+		content: "";	
+	}
+}
+
+.swiper-container {
+		margin: 0 auto;		
+		position: relative;		
+		overflow: hidden;		
+		list-style: none;		
+		padding: 0;		
+		z-index: 1;
+}
+.swiper-box .swiper-container {
+		position: unset;		
+		margin: 0 110px; //設置箭頭與內容圖片相對位置
+}
+

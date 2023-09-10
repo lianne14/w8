@@ -1,5 +1,6 @@
 @import "../../node_modules/bootstrap/scss/functions";
 @import './helpers/variables';
+@import './helpers/mixins';
 @import './components/custom-color.scss';
 @import './components/utilities.scss';
 @import './mixins/bg-gradient.scss';
@@ -10,11 +11,15 @@
 @import './components/animation.scss';
 
 @import './base/base.scss';
+@import './base/font.scss';
 @import './components/font.scss';
 @import './components/header.scss';
 @import './components/footer.scss';
 
+@import './layout/header';
+@import './layout/footer';
 @import './pages/index.scss';
+@import './pages/about';
 
 @import "../../node_modules/bootstrap";
 
