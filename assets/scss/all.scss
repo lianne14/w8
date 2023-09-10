@@ -17,3 +17,6 @@
 @import './pages/index.scss';
 
 @import "../../node_modules/bootstrap";
+
+//引入客製化 rwd 檔案
+@import './helpers/border';
